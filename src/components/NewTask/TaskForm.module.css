@@ -1,0 +1,41 @@
+.new-expense-control {
+    margin: 0.5rem;
+}
+
+.new-expense-control label {
+    font-weight: bold;
+    margin: .5rem;
+}
+
+.new-expense-control input {
+    border-radius: .5rem;
+    border: 1px solid seashell;
+    padding: .5rem 1rem;
+    width: 75%;
+    font-family: inherit;
+
+}
+
+.new-expense-control input:focus {
+    outline: none;
+}
+
+.new-expense-control.invalid input {
+    border-color: red;
+}
+
+button {
+    margin: .75rem;
+    padding: 0.6rem 1rem;
+    border-radius: .85em;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(197, 159, 235);
+    font-weight: bold;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(180, 116, 240);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+}

@@ -1,0 +1,12 @@
+.filter-tasks {
+    width: 45%;
+    font-weight: bold;
+}
+
+.filter-tasks select{
+    margin: 1rem;
+    border: none;
+    background-color: rgb(224, 221, 221);
+    border-radius: 1em;
+    padding: .5rem .5rem;
+}
